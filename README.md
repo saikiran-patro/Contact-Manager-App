@@ -2,7 +2,6 @@
 
 
 
-<h1> Details to run the App </h1>
 
 <h2 style="color:red;">Prequisite to run the app </h2><br>
 
@@ -10,6 +9,8 @@
 <p> -code editor(vs code etc)</p>
 <p> -Mongo Db local server must be installed</p>
 <p> -Browser </p>
+
+<h1> Details to run the App </h1>
 
 <p> Step1: Download the code files and extact the zip file <p>
 <p> Step2: Now open the folder with any code file editor(Vs Code, Atom , sublime etc)<p>
