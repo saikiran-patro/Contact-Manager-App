@@ -11,15 +11,15 @@
 <p> Mongo Db local server must be installed</p><br>
 <p> Brower </p><br>
 
-<p> Step1: Download the code files and extact the zip file <p><br>
-<p> Step2: Now open the folder with any code file editor(Vs Code, Atom , sublime etc)<p><br>
-<p> Step3: Download the code files and extact the zip file <p><br>
-<p> Step4: Open terminal and run command <span style="color:red"> npm install </span> <p><br>
-<p> step5: Run command <span style="color:red"> nodemon server.js</span> <p><br>
-<p> step6: Open any browser (ex Google Chrome) type url <span style="color:red"> localhost:3000</span></p><br>
+<p> Step1: Download the code files and extact the zip file <p>
+<p> Step2: Now open the folder with any code file editor(Vs Code, Atom , sublime etc)<p>
+<p> Step3: Download the code files and extact the zip file <p>
+<p> Step4: Open terminal and run command <span style="color:red"> npm install </span> <p>
+<p> step5: Run command <span style="color:red"> nodemon server.js</span> <p>
+<p> step6: Open any browser (ex Google Chrome) type url <span style="color:red"> localhost:3000</span></p>
 
 <h1> Contact App Featues </h1>
-<p> User Authentication and Registration <p><br>
+<p> User Authentication and Registration <p>
  <p> User can save multiple contacts </p>
 
 
