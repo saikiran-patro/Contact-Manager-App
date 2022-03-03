@@ -6,10 +6,10 @@
 
 <h2 style="color:red;">Prequisite to run the app </h2><br>
 
-<p> Node Js must be installed</p>
-<p> code editor(vs code etc)</p><br/>
-<p> Mongo Db local server must be installed</p><br>
-<p> Brower </p><br>
+<p> -Node Js must be installed</p>
+<p> -code editor(vs code etc)</p>
+<p> -Mongo Db local server must be installed</p>
+<p> -Browser </p>
 
 <p> Step1: Download the code files and extact the zip file <p>
 <p> Step2: Now open the folder with any code file editor(Vs Code, Atom , sublime etc)<p>
@@ -20,6 +20,6 @@
 
 <h1> Contact App Featues </h1>
 <p> User Authentication and Registration <p>
- <p> User can save multiple contacts </p>
+<p> User can save multiple contacts </p>
 
 
