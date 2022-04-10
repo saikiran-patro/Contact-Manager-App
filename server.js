@@ -6,6 +6,7 @@ const session = require('express-session');
 const passport = require("passport");
 const passportLocalMongoose = require("passport-local-mongoose");
 const bodyParser=require('body-parser');
+const md5=require('md5');
 const res = require('express/lib/response');
 
 
@@ -91,7 +92,7 @@ app.post('/signup',(req,res)=>{
 
     const newUser = new User({
         email:req.body.email,
-        password:req.body.password,
+        password:md5(req.body.password),
         secret:req.body.secret,
         contactList:[],
 
@@ -136,7 +137,7 @@ app.post("/signin",(req,res)=>{
        
 
     const email = req.body.email;
-    const password = req.body.password;
+    const password = md5(req.body.password);
     User.findOne({email: email, password: password},(err, foundUser)=>{
 
         if(err){
